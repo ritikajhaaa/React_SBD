@@ -1,0 +1,398 @@
+section {
+    padding: 80px 0 80px 0;
+    overflow: hidden;
+    position: relative;
+} 
+
+#subheader {
+    text-align: center;
+    overflow: hidden;
+    padding: 100px 0 100px 0;
+}
+
+.no-top {
+    padding-top: 0 !important;
+}
+
+.no-bottom {
+    padding-bottom: 0 !important;
+}
+
+/* .overlay-bg {
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    background: rgb(0 0 0 / 84%);
+    top: 0;
+    padding: 100px 0 100px 0;
+} */
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.col-md-12 {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+#subheader.dark h1 {
+    color: #fff;
+}
+
+#subheader h1 {
+    margin-top: 80px;
+    font-size: 42px;
+    font-weight: 600;
+}
+
+
+.de_light h1{
+    color: #e56100;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+#subheader.dark .crumb {
+    color: #fff;
+}
+
+/* #subheader .crumb {
+    font-size: 10px;
+    letter-spacing: 3px;
+    margin-top: 30px;
+} */
+
+#subheader .crumb {
+    color: #777;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style-type: disc;
+}
+
+.crumb li {
+    display: inline;
+    text-decoration: none;
+    padding: 0 2px 0 2px;
+    letter-spacing: 0;
+    font-size: 12px;
+}
+
+.de_light section #subheader{
+    background: #ffffff;
+}
+
+
+
+.de_light #content {
+    background: #ffffff;
+}
+
+#content {
+    width: 100%;
+    background: #fff;
+    /* padding: 90px 0 90px 0; */
+    z-index: 100;
+}
+
+.no-top {
+    padding-top: 0 !important;
+}
+
+.no-bottom {
+    padding-bottom: 0 !important;
+}
+
+.no-bottom {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.de_light #section-17 {
+    background: #ffffff;
+}
+
+.no-top {
+    padding-top: 0 !important;
+}
+
+.portfolio-page {
+    margin: 90px 0 0 !important;
+}
+
+.de_light h2 {
+    color: #e56100;
+}
+
+.col-md-12 h2{
+    color: #e56100;
+
+    font-weight: 500;
+    letter-spacing: normal;
+    margin-bottom: 40px;
+    font-size: 40px;
+
+    /* font-size: 28px; */
+    display: block;
+    margin-top: 0;
+    /* margin-bottom: 30px; */
+    line-height: 1.2em;
+    /* letter-spacing: -1px; */
+
+    font-family: "Dosis";
+    /* font-weight: 500; */
+    /* color: #404146; */
+
+    /* margin-bottom: 0.5rem; */
+    /* font-weight: 500; */
+    /* line-height: 1.2; */
+
+    /* margin-top: 0; */
+    /* margin-bottom: 0.5rem; */
+
+    /* display: block;
+    font-size: 1.5em; */
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    /* font-weight: bold; */
+}
+
+#filters {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+#filters li {
+    display: inline-block;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+
+#filters a.selected{
+    border-color: #ef6548;
+    background-color: #ff6a05;
+    color: #fff 
+}
+
+#filters a {
+    background: none;
+    outline: none;
+    color: #888;
+    text-decoration: none;
+    color: #888;
+    padding: 5px 20px 5px 20px;
+    border-radius: 5px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+
+.pf_full_width.grid {
+    padding: .75%;
+    padding-bottom: 0;
+}
+
+
+.pf_full_width {
+    width: 100%;
+}
+
+.pf_full_width .item {
+    float: left;
+    width: 24.99%;
+}
+
+.picframe {
+    position: relative;
+    overflow: hidden;
+}
+
+.de_light a {
+    color: #888;
+}
+
+a{
+    outline: 0;
+
+    -webkit-transition: .3s;
+    transition: .3s;
+
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.de-gallery .overlay {
+    text-align: center;
+}
+
+span.overlay {
+    font-family: "Dosis";
+    text-align: center;
+    display: block;
+    width: 100px;
+    background: rgba(64, 65, 70, .8);
+    position: absolute;
+    opacity: .75;
+    z-index: 500;
+}
+
+.de-gallery .overlay .pf_text {
+    display: inline-block;
+    opacity: 0;
+}
+
+.pf_text {
+    color: #eceff3;
+    letter-spacing: 5px;
+}
+
+.de-gallery .project-name {
+    font-size: 16px;
+    letter-spacing: 0;
+}
+
+.project-name {
+    font-size: 12px;
+    font-weight: bold;
+    display: block;
+}
+
+img{
+    width: 100%;
+    height: auto;
+    visibility: visible;
+    animation-delay: 0s;
+    animation-name: slideInUp;
+}
+
+.pf_full_width img {
+    float: left;
+    width: 100%;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+.pf_full_width.grid .item {
+    margin: 0 .75% .75% 0;
+    width: 32%;
+}
+
+.pf_full_width .item {
+    float: left;
+    width: 24.99%;
+}
+
+.picframe {
+    position: relative;
+    overflow: hidden;
+}
+
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.de_light a {
+    color: #888;
+}
+
+a{
+    transition: .3s;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.pf_full_width .item {
+    float: left;
+    width: 24.99%;
+}
+
+
+
+
+@media screen and (max-width: 1200px){
+    .container{
+        max-width: 1140px;
+    }
+
+
+}
+
+@media screen and (max-width: 992px){
+    .container{
+        max-width: 960px;
+    }
+
+   
+}
+
+@media screen and (max-width: 768px){
+    .container{
+        max-width: 720px;
+    }
+
+    .col-md-12 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .col-md-6 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }    
+}
+
+@media screen and (max-width: 576px){
+    .container{
+        max-width: 540px;
+    }
+}
+
